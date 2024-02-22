@@ -9,6 +9,7 @@ const Resume = () => {
         <Navbar />
       </div>
       <div className='flex flex-col justify-center items-center'>
+      <h1 className="text-4xl font-bold text-center text-blue">Resume</h1>
         <img src={ResumePic} alt="Resume" />
       </div>
     </div>

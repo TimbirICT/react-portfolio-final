@@ -1,3 +1,4 @@
+
 import React from "react";
 import p1 from "../assets/img/p1.png";
 import p2 from "../assets/img/p2.png";
@@ -15,16 +16,15 @@ export default function Portfolio() {
       <div id='portfolio' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
         <h1 className="text-4xl font-bold text-center text-blue">Portfolio</h1>
         <p className="text-center py-8">
-          These are all the applications and databases i've worked on over the last
-          6 months. 
+          These are all the applications and databases I've worked on over the last 6 months. 
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem img={p1} title='Project 1' />
-          <ProjectItem img={p2} title='Project 2' />
-          <ProjectItem img={p3} title='Project 3' />
-          <ProjectItem img={p4} title='Project 4' />
-          <ProjectItem img={p5} title='Project 5' />
-          <ProjectItem img={p6} title='Project 6' />
+          <ProjectItem img={p1} title='Beatdeets' link='https://github.com/harmonyburke/beatdeets' />
+          <ProjectItem img={p2} title='Note Taker' link='https://github.com/TimbirICT/Notes-App' />
+          <ProjectItem img={p3} title='Readme Generator' link='https://github.com/TimbirICT/README-Generator' />
+          <ProjectItem img={p4} title='Social Media Database' link='https://github.com/TimbirICT/Social-Network-DB' />
+          <ProjectItem img={p5} title='Logo Generator' link='https://github.com/TimbirICT/Logo-Generator' />
+          <ProjectItem img={p6} title='ClockWise' link='https://github.com/TimbirICT/ClockWise?tab=readme-ov-file' />
         </div>
       </div>
     </div>
