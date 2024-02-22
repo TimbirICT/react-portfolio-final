@@ -12,4 +12,4 @@ export default function ProjectItem({ img, title, link }) {
       </div>
     </a>
   );
-}
+} 
