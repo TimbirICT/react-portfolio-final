@@ -1,8 +1,37 @@
-# React + Vite
+# Developer-Portfolio-React
+A developer portfolio made with React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Description
+This is Timbir Middlebrooks official development portfolio. 
+Here I have my projects, resume, and a short bio of myself.
+I have also included a link to my github, and a contact me form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Description](#Description)
+- [Usage](#usage)
+- [Sources](#sources)
+- [Questions](#questions)
+
+
+## Usage
+Click on the navigation bar on the top right of the page to see
+all of the available resources to view.
+
+
+## Sources
+
+Youtube.com - several different references
+
+W3schools.com
+
+School repo
+
+Andrew Hudgins and Colin Bares, TA
+
+
+## Questions
+
+Email: tmiddlebrooks99@gmail.com
+
+Github: https://github.com/TimbirICT
