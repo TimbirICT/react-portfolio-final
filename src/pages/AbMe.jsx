@@ -1,17 +1,19 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import CoderImg from '../components/coder.jpg';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
+import timbir from '../components/timbir.jpg';
 
 const AbMe = () => {
   return (
     <div>
       <Navbar />
-      <div id='main'>
+      <div id='main' className="relative">
         <img className='w-full h-screen object-cover' src={CoderImg} alt='aesthetic coder' />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
           <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
+          <img className='w-60 h-60 rounded-full object-cover mb-4' src={timbir} alt='profile picture'/> {/* Adjust size here */}
             <h1 className='sm:text-5xl text-3xl font-bold text-gray-800'>I'm Timbir Middlebrooks</h1>
             <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
               I'm a
@@ -32,17 +34,24 @@ const AbMe = () => {
                 repeat={Infinity}
               />
             </h2>
-            <div className='flex justify-between pt-5 justify-center'>
-            <a href='https://github.com/TimbirICT' target='_blank' rel='noopener noreferrer' className='cursor-pointer'>
-            <FaGithub size={30} />
-            </a>
-
+            <div className='flex justify-center pt-5'> {/* Center align icons */}
+              <a href='https://github.com/TimbirICT' target='_blank' rel='noopener noreferrer' className='cursor-pointer mr-4'> {/* Add margin to the right */}
+                <FaGithub size={30} />
+              </a>
+              <a href='https://www.linkedin.com/in/timbir-middlebrooks-b83725246/' target='_blank' rel='noopener noreferrer' className='cursor-pointer'> {/* No need to add margin to the last item */}
+                <FaLinkedinIn size={30} />
+              </a>
             </div>
+            <p className='text-xl pt-4'>
+              Growing up, I had an interest and knack for technology, and computers. I knew at a young age that
+              my passion for them would eventually lead to working with technology for a career. After completing a coding 
+              bootcamp at the University of Kansas, I believe I'm equipped with the skills I need to be a successful developer.
+            </p>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
+ 
 export default AbMe;
