@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Import useEffect from React
+
 import { TypeAnimation } from 'react-type-animation';
 import CoderImg from '../components/coder.jpg';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -6,6 +7,10 @@ import Navbar from '../components/Navbar';
 import timbir from '../components/timbir.jpg';
 
 const AbMe = () => {
+  useEffect(() => {
+    document.title = "Timbir's Portfolio"; // Set document title
+  }, []);
+
   return (
     <div>
       <Navbar />
