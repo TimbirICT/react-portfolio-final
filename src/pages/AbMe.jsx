@@ -75,7 +75,7 @@ const AbMe = () => {
               </a>
             </div>
             <p className="text-xl pt-4">
-              Growing up, I always had a strong interest in technology and
+              Growing up, I've always had a strong interest in technology and
               computers. I knew from a young age that my passion for these areas
               would lead to a career in technology. Over the years, I have
               consistently worked on improving my skills and learning new things
