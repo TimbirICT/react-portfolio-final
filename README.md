@@ -3,7 +3,7 @@ A developer portfolio made with React.
 
 
 ## Description
-This is Timbir Middlebrooks official development portfolio. 
+This is Timbir Middlebrooks' official development portfolio. 
 Here I have my projects, resume, and a short bio of myself.
 I have also included a link to my github, and a contact me form.
 
